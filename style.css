@@ -1,0 +1,29 @@
+
+/* .handle-image-display{
+    border:5px solid red;
+} */
+
+@media only screen and (max-width: 767px) {
+    .handle-image-display img {
+      display: none;
+    }
+  }
+
+  .thank-you-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .alert {
+    width: 100%;
+    background-color: rgb(0, 255, 106);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 10px;
+    display: none;
+  }
